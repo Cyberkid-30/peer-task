@@ -57,7 +57,7 @@ const TicketUpsertForm = ({ ticket }: TicketUpsertFormProps) => {
       <FieldError actionState={actionState} name="content" />
 
       <div className="flex gap-x-2 mb-1">
-        <div className="w-1/2">
+        <div className="w-full">
           <Label htmlFor="deadline">Deadline</Label>
           <DatePicker
             id="deadline"
@@ -70,7 +70,7 @@ const TicketUpsertForm = ({ ticket }: TicketUpsertFormProps) => {
           />
           <FieldError actionState={actionState} name="deadline" />
         </div>
-        <div className="w-1/2">
+        {/* <div className="w-1/2">
           <Label htmlFor="bounty">Bounty ($)</Label>
           <Input
             id="bounty"
@@ -83,7 +83,7 @@ const TicketUpsertForm = ({ ticket }: TicketUpsertFormProps) => {
             }
           />
           <FieldError actionState={actionState} name="bounty" />
-        </div>
+        </div> */}
       </div>
 
       <SubmitButton label={ticket ? "Edit" : "Create"} />
