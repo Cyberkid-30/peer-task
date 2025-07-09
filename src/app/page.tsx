@@ -12,10 +12,7 @@ type HomePageProps = {
 const HomePage = async ({ searchParams }: HomePageProps) => {
   return (
     <div className="flex-1 flex flex-col gap-y-8">
-      <Heading
-        title="All Tickets"
-        description="Tickets by everyone at one place"
-      />
+      <Heading title="All Tasks" description="Tasks by everyone at one place" />
 
       <Suspense fallback={<Spinner />}>
         <TicketList

@@ -17,11 +17,11 @@ const TicketsPage = async ({ searchParams }: TicketsPageProps) => {
 
   return (
     <div className="flex-1 flex flex-col gap-y-8">
-      <Heading title="My Tickets" description="All your tickets at one place" />
+      <Heading title="My Tasks" description="All your tasks at one place" />
 
       <CardCompact
-        title="Create Ticket"
-        description="A new ticket will be created"
+        title="Create Task"
+        description="A new task will be created"
         className="w-full max-w-[420px] self-center"
         content={<TicketUpsertForm />}
       />

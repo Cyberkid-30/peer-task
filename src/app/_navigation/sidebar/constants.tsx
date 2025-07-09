@@ -4,12 +4,12 @@ import { NavItem } from "./types";
 
 export const navItems: NavItem[] = [
   {
-    title: "All Tickets",
+    title: "All Tasks",
     icon: <LucideLibrary />,
     href: homePath(),
   },
   {
-    title: "My Tickets",
+    title: "My Tasks",
     icon: <LucideBook />,
     href: ticketsPath(),
   },

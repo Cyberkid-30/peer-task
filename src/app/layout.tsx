@@ -11,8 +11,8 @@ import { ReactQueryProvider } from "./_providers/react-query/react-query-provide
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "The Road to Next",
-  description: "My Road to Next application ...",
+  title: "Peer Task",
+  description: "A student to student task platform",
 };
 
 export default function RootLayout({
